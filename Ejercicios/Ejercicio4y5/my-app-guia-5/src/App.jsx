@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { getImageUrl } from './utils.js';
 
-function Avatar({ person, size }) {
+/*function Avatar({ person, size }) {
   return (
     <img
       className="avatar"
@@ -14,10 +14,10 @@ function Avatar({ person, size }) {
       height={size}
     />
   );
-}
+}*/
 
 
-export default function Profile() {
+/*export default function Profile() {
   return (
     <div>
       <Avatar
@@ -49,16 +49,16 @@ export default function Profile() {
       />
     </div>
   )
-}
+}*/
 
-/*function MyButton(props) {
+function MyButton(props) {
   return (
     <button onClick={props.Fn}>Soy un boton custom y mi cuenta es: {props.count}</button>
   );
 }
-  */
+  
 
-/*function App() {
+function App() {
   const [count, setCount] = useState(0);
 
   const increment = () => setCount((count) => count + 1);
@@ -86,9 +86,10 @@ export default function Profile() {
     </>
   )
 }
-  */
+  
 
 
-//export default App
+export default App
 
-//Lo que esta comentado era el codigo del ejercicio 4
+//Lo que esta comentado era el codigo del ejercicio 5,
+// para usarlo hay que comentar lo que no es un comentario y usar lo que ya estaba comentado
